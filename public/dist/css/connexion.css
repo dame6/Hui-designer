@@ -1,0 +1,163 @@
+
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+/*background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');*/
+background-image: url("../img/images/544750.jpg");
+
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+.entypo:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/************************************/
+
+$green: #74d4b3;
+$red: #ef8974; 
+$black: #2C2E31;
+$gray: #5F6164;
+$light_gray: #ccc;
+$white: #fff;
+
+html,body {
+  margin: 0;
+  background-color: $red;
+}
+
+section {
+
+	.services {
+		text-align: center;
+    transform: translatez(0);
+    
+		.title {
+			margin: 80px 0 40px;
+			color: $black;
+			font-size: 2.4em;
+      font-family: 'Raleway Dots', sans-serif;
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+		li {
+			width: 120px;
+			height: 140px;
+			display: inline-block;
+			margin: 20px;
+			list-style: none;
+
+			div {
+				width: 120px;
+				height: 120px;
+				color: $green;
+				font-size: 3.4em;
+				text-align: center;
+				line-height: 120px;
+				background-color: $black;
+				transition: all 0.5s ease;
+
+				&;:hover {
+					transform: rotate(360deg);
+					border-radius: 100px;
+				}
+			}
+
+			.caption {
+				width: 120px;
+				height: 20px;
+				display: block;
+				padding: 15px 0;
+				color: $black;
+				font-family: 'Advent Pro', sans-serif;
+				text-transform: uppercase;
+				font-size: 1.2em;
+				text-align: center;
+			}
+		}
+	}
+}

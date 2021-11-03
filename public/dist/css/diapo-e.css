@@ -1,0 +1,23 @@
+
+.conteneur1{
+    max-width: 100%;
+    overflow: hidden;
+    margin: 02px auto;
+    box-shadow: 0px 0px 10px #777;
+}
+.d1{
+    width: 400%;
+    height: 150px;
+    padding-top: 150px;
+    background-color: #EDEDED;
+    background-image: url("../img/images/image5.jpg");
+   
+    animation: defilement1 25s linear infinite;
+}    
+@keyframes defilement1{
+    0%{transform: translate(0,0);}
+    100%{transform: translate(-75%,0);}
+}
+.d1:hover{
+    animation-play-state: paused;
+}
